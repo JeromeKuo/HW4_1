@@ -1,5 +1,5 @@
 
-func add_5(start_number start:Int,add_numberadd add:Int,andnumber_end end:Int) ->Int {
+func add_x(start_number start:Int,add_numberadd add:Int,andnumber_end end:Int) ->Int {
     var sum = 0
     for i in start...end {
         
@@ -14,4 +14,4 @@ func add_5(start_number start:Int,add_numberadd add:Int,andnumber_end end:Int) -
     
 }
 
-add_5(start_number: 3, add_numberadd: 5, andnumber_end: 98)
+add_x(start_number: 3, add_numberadd: 5, andnumber_end: 98)

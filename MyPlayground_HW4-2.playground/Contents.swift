@@ -4,7 +4,6 @@
 var sum = 0
 
 for row in 0...7 {  //第一層for迴圈，讓row由 1 ~ 7
-    if row <= 7 { //最大row數為7
         if row % 2 == 1 {    //增加判斷row行是否為奇數(餘數=1)
             
             for column in 0...7 { //第二層for迴圈，讓column由 1 ~ 7
@@ -14,7 +13,6 @@ for row in 0...7 {  //第一層for迴圈，讓row由 1 ~ 7
         
                 }
         
-    }
     
 }
 
